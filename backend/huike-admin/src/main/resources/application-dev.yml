@@ -1,0 +1,19 @@
+# 项目相关配置
+huike:
+  name: HuiKe
+  version: 3.4.0
+  copyrightYear: 2021
+  demoEnabled: true
+  profile: E:\soft\uploadPath
+  addressEnabled: false
+  captchaType: math
+
+token:
+  header: Authorization
+  secret: abcdefghijklmnopqrstuvwxyz
+  expireTime: 30
+
+rule:
+  transfor: admin
+  clue:
+    import: admin
